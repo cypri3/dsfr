@@ -30,7 +30,7 @@ L'installation du Système de Design de l'État (ci-après, le **DSFR**) peut se
 ### Fichiers statiques
 Il est possible de télécharger l'ensemble du **DSFR** au format zip ci-dessous. Le zip contient un ensemble de fichiers CSS et Javascript, ainsi que les différentes polices web utilisées, à savoir la Marianne et la Spectral.
 
-[Fichiers statiques](https://www.systeme-de-design.gouv.fr/comment-utiliser-le-dsfr/developpeurs/prise-en-main-du-dsfr)
+[Fichiers statiques](https://www.systeme-de-design.gouv.fr/utilisation-et-organisation/developpeurs/prise-en-main)
 
 ### NPM
 Le **DSFR** est disponible sur NPM via un ensemble de packages qu'il est possible d'ajouter directement à votre projet. Il est de ce fait nécessaire d'installer [NodeJS](https://nodejs.org), et d'avoir un fichier **package.json** à la racine de votre projet. (Il est possible d'en créer un directement via la commande `npm init`).
@@ -85,7 +85,7 @@ Les polices de caractères utilisées sur le DS, à savoir la Marianne et la Spe
 Le point de départ de l’utilisation du DSFR  est la création de fichiers HTML, afin de pouvoir utiliser les différents composants. Ces fichiers sont à mettre à la racine de votre projet. L’exemple ci dessous est le code minimal afin de pouvoir utiliser le DSFR.
 
 L’ajout de l’attribut **data-fr-scheme** sur la balise html permet d’activer la gestion des thèmes clair et sombre. Les valeurs possibles sont `system`, `light`, `dark`. La valeur “system” permet d’utiliser la configuration définie sur le système d’exploitation de l’utilisateur.
-Consulter la [documentation des paramètres d’affichage](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/parametres-d-affichage) afin d’en savoir plus.
+Consulter la [documentation des paramètres d’affichage](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/parametre-d-affichage/) afin d’en savoir plus.
 
 ```html
 <!doctype html>
